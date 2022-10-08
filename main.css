@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    padding-top: 250px;
+    background-color: #e7e7e7;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 15px;
+}
+
+form input,
+form button {
+    padding: 12px;
+    font-size: 18px;
+}
+
+form input {
+    width: 250px;
+}
+
+form button {
+    font-weight: bold;
+    background-color: orange;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffc14f;
+}
+
+ul li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+
+input[type=checkbox] {
+    margin-top: 10px;
+}
+
+label {
+    position: relative;
+    bottom: 2px;
+}
